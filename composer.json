@@ -1,0 +1,21 @@
+{
+    "name": "hbsolutions/php-class-name-transformer",
+    "description": "PHP utility for class names \"magic\".",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HBS Development Team",
+            "email": "dev.hbsolutions@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "HBS\\ClassNameTransformer\\": "src/"
+        }
+    }
+}
