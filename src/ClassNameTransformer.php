@@ -8,15 +8,9 @@ class ClassNameTransformer
 
     protected const NAMESPACE_PART_PATTERN = '([a-zA-Z_\\d\\\\]*)';
 
-    /**
-     * @var string
-     */
-    protected $classNamePattern;
+    protected string $classNamePattern;
 
-    /**
-     * @var array
-     */
-    protected $typeResolvers = [];
+    protected array $typeResolvers = [];
 
     public function __construct(string $classNamePattern, array $typeResolvers)
     {
